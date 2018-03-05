@@ -1,0 +1,18 @@
+<view class='container'>
+  <swiper indicator-dots='true' autoplay='true'>
+    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
+    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
+    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
+  </swiper>
+  <view class='list-container'>
+    <view class='item'>
+      <view class='header'>
+        <image src='/images/1.png'></image>
+        <text>Sep 20 2018</text>
+      </view>
+      <text class='tit'>文章标题1</text>
+      <text class='des'>文章的简单描述，可以多写点多多写点。</text>
+      <text class='time'>2018-12-13</text>
+    </view>
+  </view>
+</view>
