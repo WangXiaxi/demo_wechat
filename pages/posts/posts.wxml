@@ -1,18 +1,47 @@
 <view class='container'>
-  <swiper indicator-dots='true' autoplay='true'>
-    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
-    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
-    <swiper-item><image class='swiper-image' src='/images/1.png'></image></swiper-item>
+  <swiper circular='true' indicator-dots='true' autoplay='true'>
+    <swiper-item><image class='swiper-image' src='/images/iqiyi.png'></image></swiper-item>
+    <swiper-item><image class='swiper-image' src='/images/vr.png'></image></swiper-item>
+    <swiper-item><image class='swiper-image' src='/images/wx.png'></image></swiper-item>
   </swiper>
   <view class='list-container'>
     <view class='item'>
       <view class='header'>
-        <image src='/images/1.png'></image>
+        <image src='/images/avatar/1.png'></image>
         <text>Sep 20 2018</text>
       </view>
-      <text class='tit'>文章标题1</text>
+      <text class='tit'>又是蟹黄虾壮时</text>
+      <image class='img' src='/images/post/bl.png'></image>
       <text class='des'>文章的简单描述，可以多写点多多写点。</text>
-      <text class='time'>2018-12-13</text>
+      <view class='tools'>
+        <view class='ico comment'>
+          <image src='/images/icon/chat.png'></image>
+          <text>93</text>
+        </view>
+        <view class='ico browse'>
+          <image src='/images/icon/view.png'></image>
+          <text>103</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <view class='header'>
+        <image src='/images/avatar/1.png'></image>
+        <text>Sep 20 2018</text>
+      </view>
+      <text class='tit'>又是蟹黄虾壮时</text>
+      <image class='img' src='/images/post/bl.png'></image>
+      <text class='des'>文章的简单描述，可以多写点多多写点。  </text>
+      <view class='tools'>
+        <view class='ico comment'>
+          <image src='/images/icon/chat.png'></image>
+          <text>93</text>
+        </view>
+        <view class='ico browse'>
+          <image src='/images/icon/view.png'></image>
+          <text>103</text>
+        </view>
+      </view>
     </view>
   </view>
 </view>

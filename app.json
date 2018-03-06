@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/welcome/index",
-    "pages/posts/posts"
+    "pages/posts/posts",
+    "pages/welcome/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,5 +1,5 @@
 <view class='container'>
-  <image class='user-avatar' src='/images/1.png'></image>
+  <image class='user-avatar' src='/images/avatar/1.png'></image>
   <!--只有text包围的才能长按选中-->
   <text class='user-name'>hello，七月</text>
   <navigator url='../../pages/posts/posts' class='moto-container'>
