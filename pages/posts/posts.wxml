@@ -37,7 +37,7 @@
           <image src='/images/icon/chat.png'></image>
           <text>93</text>
         </view>
-        <view class='ico browse'>
+        <view class='ico 1browse'>
           <image src='/images/icon/view.png'></image>
           <text>103</text>
         </view>
