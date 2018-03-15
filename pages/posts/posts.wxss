@@ -1,8 +1,9 @@
+@import 'post-item/post-item-template';
 page {
   background: #F8F8F8;
 }
 swiper {
-  height: 600rpx;
+  height: 800rpx;
 }
 .swiper-image {
   width: 100%;
@@ -10,67 +11,4 @@ swiper {
 }
 .list-container {
   margin-top: 20rpx;
-}
-.list-container>.item {
-  background: #fff;
-  margin-bottom: 20rpx;
-  border-top: 1rpx solid #F1F1F1;
-  border-bottom: 1rpx solid #F1F1F1;
-  display: flex;
-  flex-direction: column;
-}
-.list-container>.item>.header {
-  display: flex;
-  align-items: center;
-  height: 80rpx;
-  padding-left: 20rpx;
-}
-.list-container>.item>.header image {
-  width: 60rpx;
-  height: 60rpx;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 30rpx;
-}
-.list-container>.item>.header text {
-  color: #999;
-  font-size: 24rpx;
-}
-.list-container>.item .tit {
-  height: 60rpx;
-  line-height: 60rpx;
-  padding: 0 20rpx;
-  font-size: 34rpx;
-  font-weight: bold;
-}
-.list-container>.item .img {
-  width: 100%;
-  margin-top: 20rpx;
-  height: 480rpx;
-}
-.list-container>.item .des {
-  margin-top: 20rpx;
-  font-size: 32rpx;
-  padding: 0 20rpx;
-}
-.list-container>.item .tools {
-  display: flex;
-  align-items: center;
-  height: 60rpx;
-  margin-top: 10rpx; 
-  padding: 0 20rpx;
-  font-size: 28rpx;
-}
-.list-container>.item .tools .ico {
-  margin-right: 40rpx;
-  display: flex;
-  align-items: center;
-}
-.list-container>.item .tools .ico text {
-  color: #666;
-}
-.list-container>.item .tools .ico image {
-  width: 32rpx;
-  height: 32rpx;
-  margin-right: 10rpx;
 }

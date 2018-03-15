@@ -1,8 +1,8 @@
 <view class='container'>
   <image class='user-avatar' src='/images/avatar/1.png'></image>
   <!--只有text包围的才能长按选中-->
-  <text class='user-name'>hello，七月</text>
-  <navigator url='../../pages/posts/posts' class='moto-container'>
-    <text>开启啥啥啥</text>
-  </navigator>
+  <text class='user-name'>hello，beautiful girl</text>
+  <view bindtap='bindViewTap' class='moto-container'>
+    <text>微信学习开启</text>
+  </view>
 </view>

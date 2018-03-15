@@ -11,8 +11,8 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
+    wx.redirectTo({
+      url: '../posts/posts'
     })
   },
   onLoad: function () {

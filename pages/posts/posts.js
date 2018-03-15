@@ -1,3 +1,5 @@
+var postData = require('../../data/post.js');
+
 // pages/posts/posts.js
 Page({
 
@@ -7,12 +9,22 @@ Page({
   data: {
   
   },
-
+  /**
+   * 列表文章跳转
+   */
+  onPostTap: function (event) {
+    var id = event.currentTarget.dataset.id
+    wx.navigateTo({
+      url: '../posts/post-detail/post-detail'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      postData:postData.postData
+    });
   },
 
   /**

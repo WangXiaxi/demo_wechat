@@ -1,0 +1,21 @@
+<template name='postItem'>
+  <view class='post-item'>
+    <view class='header'>
+      <image src='{{author_img}}'></image>
+      <text>{{date}}</text>
+    </view>
+    <text class='tit'>{{title}}</text>
+    <image class='img' src='{{post_img}}'></image>
+    <text class='des'>{{content}}</text>
+    <view class='tools'>
+      <view class='ico comment'>
+        <image src='/images/icon/chat.png'></image>
+        <text>{{collect_num}}</text>
+      </view>
+      <view class='ico browse'>
+        <image src='/images/icon/view.png'></image>
+        <text>{{view_num}}</text>
+      </view>
+    </view>
+  </view>
+</template>

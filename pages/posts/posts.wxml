@@ -1,3 +1,4 @@
+<import src='post-item/post-item-template.wxml' />
 <view class='container'>
   <swiper circular='true' indicator-dots='true' autoplay='true'>
     <swiper-item><image class='swiper-image' src='/images/iqiyi.png'></image></swiper-item>
@@ -5,43 +6,11 @@
     <swiper-item><image class='swiper-image' src='/images/wx.png'></image></swiper-item>
   </swiper>
   <view class='list-container'>
-    <view class='item'>
-      <view class='header'>
-        <image src='/images/avatar/1.png'></image>
-        <text>Sep 20 2018</text>
+    <block wx:for='{{postData}}' wx:for-item='item' wx:for-index='idx' wx:key='idx'>
+      <!-- 模板 -->
+      <view catchtap='onPostTap' data-id='{{item.id}}'>
+        <template is='postItem' data='{{...item}}' />
       </view>
-      <text class='tit'>又是蟹黄虾壮时</text>
-      <image class='img' src='/images/post/bl.png'></image>
-      <text class='des'>文章的简单描述，可以多写点多多写点。</text>
-      <view class='tools'>
-        <view class='ico comment'>
-          <image src='/images/icon/chat.png'></image>
-          <text>93</text>
-        </view>
-        <view class='ico browse'>
-          <image src='/images/icon/view.png'></image>
-          <text>103</text>
-        </view>
-      </view>
-    </view>
-    <view class='item'>
-      <view class='header'>
-        <image src='/images/avatar/1.png'></image>
-        <text>Sep 20 2018</text>
-      </view>
-      <text class='tit'>又是蟹黄虾壮时</text>
-      <image class='img' src='/images/post/bl.png'></image>
-      <text class='des'>文章的简单描述，可以多写点多多写点。  </text>
-      <view class='tools'>
-        <view class='ico comment'>
-          <image src='/images/icon/chat.png'></image>
-          <text>93</text>
-        </view>
-        <view class='ico 1browse'>
-          <image src='/images/icon/view.png'></image>
-          <text>103</text>
-        </view>
-      </view>
-    </view>
+    </block>
   </view>
 </view>
