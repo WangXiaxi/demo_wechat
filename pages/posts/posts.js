@@ -1,4 +1,4 @@
-var postData = require('../../data/post.js');
+import { postData } from '../../data/post.js'
 
 // pages/posts/posts.js
 Page({
@@ -15,7 +15,7 @@ Page({
   onPostTap: function (event) {
     var id = event.currentTarget.dataset.id
     wx.navigateTo({
-      url: '../posts/post-detail/post-detail'
+      url: `../posts/post-detail/post-detail?id=${id}`
     })
   },
   /**
@@ -23,7 +23,7 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      postData:postData.postData
+      postData: postData
     });
   },
 
